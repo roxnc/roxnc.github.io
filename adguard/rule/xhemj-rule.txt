@@ -1,0 +1,36 @@
+! title: Xhemj统计代码过滤规则
+! Version: 202000412
+! Homepage: https://xhemj.gitee.io/
+!专门用于阻止统计代码运行
+!----精准匹配----
+||tajs.qq.com^
+||google-analytics.com^
+||hm.baidu.com^
+||ers.baidu.com^
+||clustrmaps.com^
+||cnzz.com^
+||statcounter.com^
+||googlesyndication.com
+||users.51.la^
+||51.la^
+||flagcounter.me^
+||flagcounter.com^
+||static.hotjar.com^
+||hotjar.com^
+||script.hotjar.com^
+!----模糊匹配----
+||analytics.
+*/analytics/
+*/analytics.
+*/analytics-
+*/analytics_
+*-analytics
+*analytics
+*analytics.js|
+||tongji.
+*/tongji/
+*/tongji.
+*/tongji-
+*/tongji_
+*-tongji
+*tongji
